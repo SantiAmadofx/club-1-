@@ -1,10 +1,23 @@
 "use client";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import React, { useEffect } from "react";
 import styles from "./page.module.css";
 import "./globals.css";
 
 export default function Home() {
+  useEffect(() => {
+    // Importar el script de Bootstrap solo en el cliente
+    import("bootstrap/dist/js/bootstrap.bundle.min.js")
+      .then(() => {
+        // El script se ha cargado exitosamente
+        console.log("Bootstrap se ha cargado correctamente en el cliente.");
+      })
+      .catch((error) => {
+        // Ocurrió un error al cargar el script
+        console.error("Error al cargar Bootstrap:", error);
+      });
+  }, []);
+
   return (
     <main className={styles.main}>
       <div className={styles.wrapper_two}>
