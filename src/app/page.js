@@ -11,14 +11,21 @@ export default function Home() {
           <h1 className={styles.title}>CLUB 1%</h1>
           <h2 className={styles.text}>
             Deja de perder dinero en fondeos o pagar cursos creyendo que te van
-            a dar la solución. Te ayudo a ganar la consistencia y mentalidad
-            correcta para tu trading en 12 meses para que puedas manejar
-            múltiples 6 cifras en fondeos.
+            a dar la solución. Te ayudo a ganar la{" "}
+            <span className={styles.highlight}> CONSISTENCIA</span> y{" "}
+            <span className={styles.highlight}> MENTALIDAD</span>
+            correcta para tu trading en{" "}
+            <span className={styles.highlight}> 12 MESES</span> para que puedas
+            manejar múltiples 6 cifras en fondeos.
           </h2>
           <h2 className={styles.text}>
             Convertite en el trader rentable que anhelas ser. Para eso vamos a
-            trabajar en varias áreas. Desde lo técnico, hábitos/disciplina y
-            psicología.
+            trabajar en varias áreas. Desde lo{" "}
+            <span className={styles.highlight}>
+              {" "}
+              técnico, hábitos/disciplina y psicología
+            </span>
+            .
           </h2>
           <div className={styles.container_list}>
             <div className={styles.video}>
@@ -35,7 +42,9 @@ export default function Home() {
             <div className={styles.wraper_three}>
               <ul className={styles.list}>
                 <h2 className={styles.text}>
-                  Con el acceso a la comunidad del “CLUB 1%” vas a obtener:{" "}
+                  Con el acceso a la comunidad del{" "}
+                  <span className={styles.highlight}>“CLUB 1%”</span> vas a
+                  obtener:{" "}
                 </h2>
                 <li>
                   <span className={styles.greenCheck}>✔</span> Una llamada
@@ -75,13 +84,20 @@ export default function Home() {
           <h2 className={styles.text}>
             Mi nombre es Santiago Amado, tengo 33 años y en el 2018 me metí de
             lleno en el mundo del trading. Pase de todo antes de lograr la
-            consistencia y rentabilidad. Lógicamente quemé cuentas, perdí
-            challenges, sobre-operé, me sobre-apalanqué, cambié de estrategia
-            cada mes, creyendo que el problema era la estrategia… <br />
+            <span className={styles.highlight}>
+              {" "}
+              consistencia y rentabilidad{" "}
+            </span>
+            . Lógicamente quemé cuentas, perdí challenges, sobre-operé, me
+            sobre-apalanqué, cambié de estrategia cada mes, creyendo que el
+            problema era la estrategia… <br />
             En conclusión, pasé por todo lo malo antes de lograrlo. Por eso
-            considero que te puedo ayudar en este camino. Actualmente estoy
-            fondeado con múltiples 6 dígitos en fondeos, próximo a los 7
-            dígitos. Te dejo abajo algunos certificados.
+            considero que
+            <span className={styles.highlight}> te puedo ayudar </span> en este
+            camino. Actualmente estoy fondeado con múltiples 6 dígitos en
+            fondeos, próximo a los{" "}
+            <span className={styles.highlight}>7 dígitos</span>. Te dejo abajo
+            algunos certificados.
           </h2>
           <div className={styles.certificaciones_container}>
             <img

@@ -129,6 +129,9 @@
   font-family: "Montserrat", sans-serif;
   color: rgba(255, 255, 255, 0.48);
 }
+.highlight {
+  color: #ff7d35;
+}
 
 @media (max-width: 1280px) {
   .main {
