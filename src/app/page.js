@@ -8,30 +8,24 @@ export default function Home() {
     <MantineProvider>
       <main className={styles.main}>
         <div className={styles.wrapper_two}>
-          <h1 className={styles.title}>CLUB 1%</h1>
           <h2 className={styles.text}>
-            Deja de perder dinero en fondeos o pagar cursos creyendo que te van
-            a dar la solución. Te ayudo a ganar la{" "}
-            <span className={styles.highlight}> CONSISTENCIA</span> y{" "}
-            <span className={styles.highlight}> MENTALIDAD</span>
-            correcta para tu trading en{" "}
-            <span className={styles.highlight}> 12 MESES</span> para que puedas
-            manejar múltiples 6 cifras en fondeos.
+            Te ayudo a conseguir la{" "}
+            <span className={styles.highlight}> RENTABILIDAD Y MENTALIDAD</span>{" "}
+            correcta en el trading en{" "}
+            <span className={styles.highlight}> 12 MESES.</span>{" "}
           </h2>
           <h2 className={styles.text}>
-            Convertite en el trader rentable que anhelas ser. Para eso vamos a
-            trabajar en varias áreas. Desde lo{" "}
-            <span className={styles.highlight}>
-              {" "}
-              técnico, hábitos/disciplina y psicología
-            </span>
-            .
+            Deja de perder dinero en fondeos o pagar cursos creyendo que te van
+            a dar la solución y convertite en el{" "}
+            <span className={styles.highlight}> trader rentable</span> que
+            anhelas ser, capaz de manejar{" "}
+            <span className={styles.highlight}> $100.000 USD.</span>{" "}
           </h2>
           <div className={styles.container_list}>
             <div className={styles.video}>
               <div className={styles.video_container}>
                 <iframe
-                  src="https://drive.google.com/file/d/17HOm3qs0SVGEWt7-XP_oCEFzydQPTRYG/preview"
+                  src="https://drive.google.com/file/d/1mShRw_JSKRcT8SX3zMT6MeS9mA4WIJAc/preview"
                   width="100%"
                   height="100%"
                   allow="autoplay"

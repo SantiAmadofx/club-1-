@@ -5,11 +5,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   font-family: "Montserrat", sans-serif;
   margin-top: 30px;
   margin-left: 10%; /* Porcentaje del ancho del viewport */
   margin-right: 10%;
 }
+
 .title {
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
@@ -35,15 +37,18 @@
 }
 .list {
   list-style-type: none;
+  text-align: start;
 }
 .greenCheck {
   color: rgb(0, 255, 0);
   font-size: 25px;
 }
 .wrapper_two {
-  display: block;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+
   margin-top: 30px;
   width: 100%;
 }
@@ -152,6 +157,10 @@
     gap: 30px;
   }
   .wrapper_two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-top: 30px;
     width: 100%;
   }
@@ -189,7 +198,7 @@
 
 @media (max-width: 768px) {
   .main {
-    display: block;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
