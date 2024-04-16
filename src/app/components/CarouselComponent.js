@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Carousel } from "react-responsive-carousel";
-import { ModalGateway, Modal } from "react-images";
+import Modal from "react-modal";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import styles from "./CarouselComponent.module.css";
 
@@ -49,19 +49,20 @@ const CarouselComponent = () => {
           ))}
         </Carousel>
       </div>
-      <ModalGateway>
-        {modalOpen && (
-          <Modal onClose={closeModal}>
-            <div className={styles.modalContent}>
-              <img
-                src={images[selectedIndex].src}
-                alt={images[selectedIndex].caption}
-                className={styles.modalImage}
-              />
-            </div>
-          </Modal>
-        )}
-      </ModalGateway>
+      <Modal
+        style={"bgColor: black"}
+        isOpen={modalOpen}
+        onRequestClose={closeModal}
+        className={styles.modal}
+      >
+        <div className={styles.modalContent}>
+          <img
+            src={images[selectedIndex].src}
+            alt={images[selectedIndex].caption}
+            className={styles.modalImage}
+          />
+        </div>
+      </Modal>
     </>
   );
 };

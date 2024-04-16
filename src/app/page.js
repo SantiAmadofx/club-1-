@@ -1,7 +1,6 @@
 "use client";
 import styles from "./page.module.css";
 import "./globals.css";
-import { Carousel } from "@mantine/carousel";
 import { MantineProvider } from "@mantine/core";
 import CarouselComponent from "./components/CarouselComponent";
 export default function Home() {
@@ -127,57 +126,6 @@ export default function Home() {
           <div>
             <h1 className={styles.title}>COMENTARIOS</h1>
           </div>
-
-          {/* <Carousel
-            slideSize="30%"
-            height={100}
-            loop
-            slideGap="xl"
-            withIndicators
-          >
-            <Carousel.Slide>
-              <img
-                src="/feedback1.jfif"
-                alt="Imagen 1"
-                style={{ maxWidth: "90%", maxHeight: "90%" }}
-              />
-            </Carousel.Slide>
-            <Carousel.Slide>
-              <img
-                src="/feedback2.jfif"
-                alt="Imagen 2"
-                style={{ maxWidth: "90%", maxHeight: "90%" }}
-              />
-            </Carousel.Slide>
-            <Carousel.Slide>
-              <img
-                src="/feedback3.jfif"
-                alt="Imagen 3"
-                style={{ maxWidth: "90%", maxHeight: "90%" }}
-              />
-            </Carousel.Slide>
-            <Carousel.Slide>
-              <img
-                src="/feedback4.jfif"
-                alt="Imagen 4"
-                style={{ maxWidth: "90%", maxHeight: "90%" }}
-              />
-            </Carousel.Slide>
-            <Carousel.Slide>
-              <img
-                src="/feedback5.jfif"
-                alt="Imagen 5"
-                style={{ maxWidth: "90%", maxHeight: "90%" }}
-              />
-            </Carousel.Slide>
-            <Carousel.Slide>
-              <img
-                src="/feedback6.jfif"
-                alt="Imagen 6"
-                style={{ maxWidth: "90%", maxHeight: "90%" }}
-              />
-            </Carousel.Slide>
-          </Carousel> */}
           <CarouselComponent />
         </div>
         <div className={styles.footer_container}>
