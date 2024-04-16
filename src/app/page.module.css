@@ -82,7 +82,7 @@
 
 .acces_text {
   font-family: Arial, sans-serif; /* Cambia la fuente del texto */
-  font-size: 18px; /* Ajusta el tamaño del texto */
+  font-size: 24px;
   color: #ffffff; /* Cambia el color del texto */
   margin-bottom: 20px; /* Espaciado inferior para separar del botón */
 }
@@ -94,7 +94,7 @@
   border: none;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   font-family: Arial, sans-serif; /* Cambia la fuente del botón */
-  font-size: 16px;
+  font-size: 25px;
   font-weight: bold; /* Cambia el peso de la fuente */
   color: #ffffff;
   background-color: #ff7d35;
