@@ -32,13 +32,22 @@
   padding: 20px;
   border-radius: 8px;
 }
+.modalClose {
+  position: fixed;
+  top: 30px;
+  right: 80px;
+  font-size: 30px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border-radius: 10%;
+}
 
 .modalContent {
-  position: relative;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 20px;
 }
 
 .modalImage {
@@ -59,4 +68,53 @@
 
 .navigationButton:hover {
   color: #cccccc;
+}
+
+@media (max-width: 768px) {
+  .carouselContainer {
+    max-width: 250px;
+    height: 100px;
+    margin: 0 auto;
+  }
+
+  .carousel {
+    border-radius: 10px;
+  }
+
+  .caption {
+    text-align: center;
+    margin-top: 10px;
+  }
+  .image {
+    width: 100%;
+    height: 200px;
+  }
+  .modalImage {
+    width: 100%;
+    height: 100%;
+    margin-top: 200px;
+  }
+  .modal {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  .modalContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .modalClose {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 10%;
+  }
 }

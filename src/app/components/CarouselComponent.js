@@ -56,6 +56,9 @@ const CarouselComponent = () => {
         className={styles.modal}
       >
         <div className={styles.modalContent}>
+          <button className={styles.modalClose} onClick={closeModal}>
+            X
+          </button>
           <img
             src={images[selectedIndex].src}
             alt={images[selectedIndex].caption}
