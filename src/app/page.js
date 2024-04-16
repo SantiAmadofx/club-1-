@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import "./globals.css";
 import { Carousel } from "@mantine/carousel";
 import { MantineProvider } from "@mantine/core";
+import CarouselComponent from "./components/CarouselComponent";
 export default function Home() {
   const handleClick = () => {
     window.location.href = "https://buy.stripe.com/fZe3eI0M4c8Nfuw9AM";
@@ -127,7 +128,7 @@ export default function Home() {
             <h1 className={styles.title}>COMENTARIOS</h1>
           </div>
 
-          <Carousel
+          {/* <Carousel
             slideSize="30%"
             height={100}
             loop
@@ -176,7 +177,8 @@ export default function Home() {
                 style={{ maxWidth: "90%", maxHeight: "90%" }}
               />
             </Carousel.Slide>
-          </Carousel>
+          </Carousel> */}
+          <CarouselComponent />
         </div>
         <div className={styles.footer_container}>
           <footer className={styles.footer}>
