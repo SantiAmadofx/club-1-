@@ -4,6 +4,9 @@ import "./globals.css";
 import { Carousel } from "@mantine/carousel";
 import { MantineProvider } from "@mantine/core";
 export default function Home() {
+  const handleClick = () => {
+    window.location.href = "https://buy.stripe.com/fZe3eI0M4c8Nfuw9AM";
+  };
   return (
     <MantineProvider>
       <main className={styles.main}>
@@ -67,7 +70,9 @@ export default function Home() {
               </ul>
               <div className={styles.acces_container}>
                 <h2 className={styles.acces_text}>SALA PRIVADA 1%⚡️</h2>
-                <button className={styles.button}>ACCES</button>
+                <button className={styles.button} onClick={handleClick}>
+                  ACCEDE ACA
+                </button>
               </div>
             </div>
           </div>
