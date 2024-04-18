@@ -164,7 +164,7 @@ export default function Home() {
           <h1 className={styles.title}>COMENTARIOS</h1>
         </div>
         <h1 className={styles.comentarios_title}>
-          OTRO MIEMBRO MÁS QUE CONSIGUE SU FONDEO DE 5 / 6 CIFRAS.
+          OTRO MIEMBRO MÁS QUE CONSIGUE SU FONDEO DE 6 CIFRAS.
         </h1>
         <img
           className={styles.image_comentarios}
@@ -175,7 +175,8 @@ export default function Home() {
           Si, quiero acceder a la comunidad
         </button>
         <h1 className={styles.comentarios_title}>
-          GENERÓ $150.000 USD GRACIAS AL APRENDIZAJE EN LA COMUNIDAD
+          CONSIGUIÓ FONDEARSE CON $150.000 USD GRACIAS AL APRENDIZAJE EN LA
+          COMUNIDAD
         </h1>
         <img
           className={styles.image_comentarios}
@@ -186,7 +187,7 @@ export default function Home() {
           Si, quiero acceder a la comunidad
         </button>
         <h1 className={styles.comentarios_title}>
-          OTRO MIEMBRO MÁS QUE CONSIGUE SU FONDEO DE 5 / 6 CIFRAS.
+          OTRO MIEMBRO MÁS QUE CONSIGUE SU FONDEO DE 6 CIFRAS.
         </h1>
 
         <img
@@ -198,7 +199,7 @@ export default function Home() {
           Si, quiero acceder a la comunidad
         </button>
         <h1 className={styles.comentarios_title}>
-          OTRO MIEMBRO MÁS QUE CONSIGUE SU FONDEO DE 5 / 6 CIFRAS.
+          OTRO MIEMBRO MÁS QUE CONSIGUE SU FONDEO DE 5 CIFRAS.
         </h1>
         <img
           className={styles.image_comentarios}
@@ -209,7 +210,7 @@ export default function Home() {
           Si, quiero acceder a la comunidad
         </button>
         <h1 className={styles.comentarios_title}>
-          OTRO MIEMBRO MÁS QUE CONSIGUE SU FONDEO DE 5 / 6 CIFRAS.
+          OTRO MIEMBRO MÁS QUE CONSIGUE SU FONDEO DE 5 CIFRAS.
         </h1>
         <img
           className={styles.image_comentarios}
