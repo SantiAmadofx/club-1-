@@ -164,6 +164,7 @@
   width: 500px;
   height: 600px;
   margin-bottom: 30px;
+  border-radius: 10%;
 }
 
 @media (max-width: 1280px) {
