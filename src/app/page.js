@@ -4,7 +4,7 @@ import "./globals.css";
 import React, { useState, useEffect } from "react";
 export default function Home() {
   const handleClick = () => {
-    window.location.href = "https://buy.stripe.com/fZe3eI0M4c8Nfuw9AM";
+    window.location.href = "https://www.skool.com/trading1percent";
   };
 
   const [hours, setHours] = useState(0);
